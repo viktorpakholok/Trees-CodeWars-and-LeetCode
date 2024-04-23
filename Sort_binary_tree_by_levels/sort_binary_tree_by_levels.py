@@ -1,8 +1,8 @@
-''''''
+'''The module with a solution of "Sort binary tree by levels"'''
 from collections import deque
 
 def tree_by_levels(node):
-    ''''''
+    '''Perform a level-order traversal on a binary tree'''
     if node is None:
         return []
     res = [node.value]
