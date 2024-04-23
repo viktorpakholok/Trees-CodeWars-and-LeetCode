@@ -1,8 +1,8 @@
-''''''
+'''The module with a solution of "Binary Tree Traversal"'''
 
 # Pre-order traversal
 def pre_order(node):
-    ''''''
+    '''Perform a pre-order traversal on a binary tree'''
     if node is None:
         return []
     res = []
@@ -29,7 +29,7 @@ def pre_order(node):
 
 # In-order traversal
 def in_order(node):
-    ''''''
+    '''Perform an in-order traversal on a binary tree'''
     if node is None:
         return []
     res = []
@@ -60,7 +60,7 @@ def in_order(node):
 
 # Post-order traversal
 def post_order(node):
-    ''''''
+    '''Perform a post-order traversal on a binary tree'''
     if node is None:
         return []
     res = []
